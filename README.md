@@ -15,3 +15,7 @@ Projeto desenvolvido em grupo com o objetivo de estruturar uma página para uma 
 **Enzo, Kauan e Matheus:** Desenvoldedores FrontEnd.
 
 **Erisclécio:** Arquiteto da informação.
+
+## Visualização do Projeto
+
+[Acessar o site NAVØR](https://erisclecio.github.io/FrontEnd_NAVOR/html/index.html)
