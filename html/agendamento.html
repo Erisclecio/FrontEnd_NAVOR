@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <title>NAVØR | Agendamento</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>NAVØR | Agendamento</h1>
+        <nav>
+            <a href="index.html" aria-label="acesse à pagina inicio">Início</a>
+            <a href="sobre.html" aria-label="acesse à pagina sobre">Sobre Nós</a>
+            <a href="loja.html" aria-label="acesse à pagina loja">Loja</a>
+            <a href="lounge.html" aria-label="acesse à pagina lounge">Lounge</a>
+            <a href="galeria.html" aria-label="acesse à pagina galeria">Galeria</a>
+            <a href="contato.html" aria-label="acesse à pagina contato  ">Contato</a>
+            <a href="localizacao.html" aria-label="acesse à pagina localização">Localização</a>
+            <a href="depoimentos.html" aria-label="acesse à pagina depoimentos">Depoimentos</a>
+            <a href="agendamento.html" aria-label="acesse à pagina agendamento">Agendamento</a>
+            <a href="equipe.html" aria-label="acesse à pagina equipe">Equipe</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Agende seu horário</h2>
+            <p>Escolha seu especialista, os rituais de sua preferência e reserve seu momento de desconexão e estilo
+                no
+                atelier NAVØR.</p>
+            <div>
+                <form>
+                    <label>
+                        Escolha seu especialista:
+                    </label>
+                    <select name="especialista" id="especialista">
+                        <option value="especialista1">Especialista 1</option>
+                        <option value="especialista2">Especialista 2</option>
+                        <option value="especialista3">Especialista 3</option>
+                        <option value="especialista4">Especialista 4</option>
+                    </select>
+                    <label for="selecionar-data">
+                        Selecione a Data desejada:
+                    </label>
+                    <input type="date" id="selecionar-data" required>
+                    <label for="nome">
+                        Coloque seu nome completo:
+                    </label>
+                    <input type="text" id="nome" name="nome" required>
+                    <label for="servico">
+                        Selecione o serviço desejado:
+                    </label>
+                    <select name="servico" id="servico">
+                        <option value="corte">Corte de Cabelo</option>
+                        <option value="barba">Barba</option>
+                        <option value="corte-barba">Corte + Barba</option>
+                        <option value="tratamento">Tratamento Capilar</option>
+                    </select>
+                    <label for="selecionar-horario">
+                        Selecione o horário desejado:
+                    </label>
+                    <input type="time" id="selecionar-horario">
+                    <label for="telefone">
+                        Seu telefone para contato:
+                    </label>
+                    <input type="tel" id="telefone" name="telefone" required>
+                    <button type="submit" aria-label="Confirmar agendamento">Agendar</button>
+                </form>
+                <div>
+                    <h2>Seu Momento NAVØR</h2>
+                    <p>O agendamento garante atendimento privativo e sem atrasos. Todas as sessões incluem café
+                        expresso
+                        gourmet ou uma dose cortesia de Single Malt Whisky como ritual de boas-vindas.</p>
+                    <div style="border: 1px solid #000000;"></div>
+                    <span>Local de Atendimento</span>
+                    <p>
+                        R. Caquito, 347 - Vila Sao Geraldo, São Paulo - SP
+                    </p>
+                    <span>Dúvidas ou Reagendamentos?</span>
+                    <span>WhatsApp: (11) 99999-8888</span>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2026 NAVØR - Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>
